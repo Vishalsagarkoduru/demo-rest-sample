@@ -12,18 +12,18 @@ public class DemoController {
     @GetMapping("/printmsg")
     public String pringMsg(){
         for (int i=0;i<1000;i++){
-           logger.info("=========Hello World==========");
-           logger.info("=========Hello World==========");
-           logger.info("=========Hello World==========");
-           logger.info("=========Hello World==========");
-           logger.info("=========Hello World==========");
-           logger.info("=========Hello World==========");
-           logger.info("=========Hello World==========");
-           logger.info("=========Hello World==========");
-           logger.info("=========Hello World==========");
-           logger.info("=========Hello World==========");
-           logger.info("=========Hello World==========");
+           logger.info("=========Hello AZURE==========");
+           logger.info("=========Hello AZURE==========");
+           logger.info("=========Hello AZURE==========");
+           logger.info("=========Hello AZURE==========");
+           logger.info("=========Hello AZURE==========");
+           logger.info("=========Hello AZURE==========");
+           logger.info("=========Hello AZURE==========");
+           logger.info("=========Hello AZURE==========");
+           logger.info("=========Hello AZURE==========");
+           logger.info("=========Hello AZURE==========");
+           logger.info("=========Hello AZURE==========");
         }
-return "helloworld\n helloworld\n"; 
+return "helloworld\n hello\n"; 
     }
 }
