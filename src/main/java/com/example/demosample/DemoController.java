@@ -10,10 +10,20 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
     Logger logger = (Logger) LoggerFactory.getLogger(DemoController.class);
     @GetMapping("/printmsg")
-    public void pringMsg(){
-        for (int i=0;i<5;i++){
+    public String pringMsg(){
+        for (int i=0;i<1000;i++){
+           logger.info("=========Hello World==========");
+           logger.info("=========Hello World==========");
+           logger.info("=========Hello World==========");
+           logger.info("=========Hello World==========");
+           logger.info("=========Hello World==========");
+           logger.info("=========Hello World==========");
+           logger.info("=========Hello World==========");
+           logger.info("=========Hello World==========");
+           logger.info("=========Hello World==========");
+           logger.info("=========Hello World==========");
            logger.info("=========Hello World==========");
         }
-
+return "helloworld\n helloworld\n"; 
     }
 }
