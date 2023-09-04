@@ -12,18 +12,18 @@ public class DemoController {
     @GetMapping("/printmsg")
     public String pringMsg(){
         for (int i=0;i<1000;i++){
-           logger.info("=========Hello Brillio==========");
-           logger.info("=========Hello Brillio==========");
-           logger.info("=========Hello Brillio==========");
-           logger.info("=========Hello Brillio==========");
-           logger.info("=========Hello Brillio==========");
-           logger.info("=========Hello Brillio==========");
-           logger.info("=========Hello Brillio==========");
-           logger.info("=========Hello Brillio==========");
-           logger.info("=========Hello Brillio==========");
-           logger.info("=========Hello Brillio==========");
-           logger.info("=========Hello Brillio==========");
+           logger.info("=========Hello CVS Health==========");
+           logger.info("=========Hello CVS Health===========");
+           logger.info("=========Hello CVS Health===========");
+           logger.info("=========Hello CVS Health===========");
+           logger.info("=========Hello CVS Health==========");
+           logger.info("=========Hello CVS Health===========");
+           logger.info("=========Hello CVS Health===========");
+           logger.info("=========Hello CVS Health===========");
+           logger.info("=========Hello CVS Health===========");
+           logger.info("=========Hello CVS Health===========");
+           logger.info("=========Hello CVS Health===========");
         }
-return "hellowBrillio\n hello\n"; 
+return "hello CVSHealth\n hello\n"; 
     }
 }
