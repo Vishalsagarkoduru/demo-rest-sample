@@ -12,18 +12,18 @@ public class DemoController {
     @GetMapping("/printmsg")
     public String pringMsg(){
         for (int i=0;i<1000;i++){
-           logger.info("=========Hello AZURE==========");
-           logger.info("=========Hello AZURE==========");
-           logger.info("=========Hello AZURE==========");
-           logger.info("=========Hello AZURE==========");
-           logger.info("=========Hello AZURE==========");
-           logger.info("=========Hello AZURE==========");
-           logger.info("=========Hello AZURE==========");
-           logger.info("=========Hello AZURE==========");
-           logger.info("=========Hello AZURE==========");
-           logger.info("=========Hello AZURE==========");
-           logger.info("=========Hello AZURE==========");
+           logger.info("=========Hello Brillio==========");
+           logger.info("=========Hello Brillio==========");
+           logger.info("=========Hello Brillio==========");
+           logger.info("=========Hello Brillio==========");
+           logger.info("=========Hello Brillio==========");
+           logger.info("=========Hello Brillio==========");
+           logger.info("=========Hello Brillio==========");
+           logger.info("=========Hello Brillio==========");
+           logger.info("=========Hello Brillio==========");
+           logger.info("=========Hello Brillio==========");
+           logger.info("=========Hello Brillio==========");
         }
-return "helloworld\n hello\n"; 
+return "hellowBrillio\n hello\n"; 
     }
 }
