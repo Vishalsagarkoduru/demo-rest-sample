@@ -12,16 +12,16 @@ public class DemoController {
     @GetMapping("/printmsg")
     public String pringMsg(){
         for (int i=0;i<1000;i++){
-           logger.info("=Hello World=");
-           logger.info("==Hello World==");
-           logger.info("===Hello World====");
-           logger.info("====Hello World=====");
-           logger.info("=====Hello World======");
-           logger.info("======Hello World=======");
-           logger.info("=======Hello World========");
-           logger.info("========Hello World=========");
-           logger.info("=========Hello World==========");
-           logger.info("=========+Hello World===========");
+           logger.info("=Hello brillio=");
+           logger.info("==Hello brillio==");
+           logger.info("===Hello brillio====");
+           logger.info("====Hello brillio=====");
+           logger.info("=====Hello brillio======");
+           logger.info("======Hello brillio=======");
+           logger.info("=======Hello brillio========");
+           logger.info("========Hello brillio=========");
+           logger.info("=========Hello brillio==========");
+           logger.info("=========+Hello brillio===========");
         }
 return "hello World\n hello World\n hello World\n hello World\n"; 
     }
